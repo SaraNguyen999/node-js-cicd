@@ -11,7 +11,7 @@ pipeline {
             steps {
                 sh 'rm -rf ~/tmp'
                 sh 'npm cache clear'
-                sh 'npm install -g node'
+                sh 'npm install node'
             }
         }
         stage('Test') {
